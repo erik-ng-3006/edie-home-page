@@ -139,7 +139,7 @@ main {
     width: 100%;
     height: 4rem;
     padding: 1rem;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     border-radius: 1.2rem;
     outline: #F2F2F2;
     border: none;
@@ -152,7 +152,7 @@ main {
     background-color: #2D9CDB;
     color: #F2F2F2;
     border-radius: 1.2rem;
-    padding: 1rem 2rem;
+    padding: .9rem 2rem;
     border: none;
     transition: transform 350ms ease-out;
 }
@@ -397,6 +397,10 @@ footer .contact-form {
     color: #828282;
 }
 
+footer .contact-form button {
+    top: 3.2rem;
+}
+
 footer p {
     text-align: center;
     color: #828282;
@@ -442,6 +446,9 @@ footer p a {
     }
     #home h2 {
         font-size: 4.8rem;
+    }
+    #home p:first-child {
+        font-size: 1.4rem;
     }
     #home>div:last-of-type {
         max-width: 80rem;
